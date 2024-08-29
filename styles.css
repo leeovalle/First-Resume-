@@ -1,0 +1,85 @@
+h1 {
+  font-family: 'Arial', sans-serif; 
+  font-weight: 600; 
+  font-size: 2.5em; 
+  text-align: center; 
+  margin-bottom: 50px; 
+}
+
+img {/* head shot */
+  width: 400px;
+  border-radius: 200px;
+  display: block;
+  margin: 0 auto; /
+}
+
+.button-container { /* for linked in and github button */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button,/* all buttons */
+.download-button{
+  padding: 15px 25px;
+  margin:20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/* This is for the dwnld button alignment */
+.container {
+  font-family: 'Arial', sans-serif;
+  text-align: center; /* Center align the content */
+  margin-top: 50px; /* Add some top margin for spacing */
+}
+
+/* This is for the OL */
+ol {
+  text-align: left;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+}
+
+/* This controls all tables */
+table {
+  border-collapse: collapse; /*so it all boarders touch */
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* This gives the outline to the tables */
+th, td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Technical skills table */
+#technical_skills{
+width: 25%;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+/* This is for the second image */
+#image2 {
+  width: 700px;
+  border-radius: 0%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* This is a CSS comment */
+.footer{
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
